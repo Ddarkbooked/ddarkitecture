@@ -6,18 +6,19 @@ const darkCodeTheme = require('prism-react-renderer').themes.vsDark;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Site',
-  tagline: 'A Very Good Project created by Very Good CLI.',
-  url: 'https://site.com',
-  baseUrl: '/',
+  title: 'Ddarkitecture',
+  tagline: 'A Very Good Documentation created by Very Good CLI.',
+  url: 'https://ddarkbooked.github.io',
+  baseUrl: '/ddarkitecture/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
+  deploymentBranch: 'gh-pages',
+  
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'my-org', // Usually your GitHub org/user name.
-  projectName: 'site', // Usually your repo name.
+  organizationName: 'donaldark', // Usually your GitHub org/user name.
+  projectName: 'ddarkitecture', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -63,7 +64,7 @@ const config = {
             label: 'Overview',
           },
           {
-            href: 'https://github.com/my-org/site',
+            href: 'https://github.com/donaldark/site',
             position: 'right',
             className: 'navbar-github-icon',
             'aria-label': 'GitHub repository',
@@ -95,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/my-org/site',
+                href: 'https://github.com/donaldark/site',
               },
             ],
           },
