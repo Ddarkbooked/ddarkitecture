@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   deploymentBranch: 'gh-pages',
-  
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'donaldark', // Usually your GitHub org/user name.
@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/my-org/site/tree/main/',
+            'https://github.com/donaldark/site/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
