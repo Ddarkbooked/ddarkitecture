@@ -6,17 +6,17 @@ const darkCodeTheme = require('prism-react-renderer').themes.vsDark;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Site',
-  tagline: 'A Very Good Project created by Very Good CLI.',
-  url: 'https://site.com',
-  baseUrl: '/',
+  title: 'Ddarkitecture',
+  tagline: 'A Very Good Documentary created by Very Good CLI.',
+  url: 'https://ddarkbooked.github.io',
+  baseUrl: '/ddarkitecture/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Ddarkbooked', // Usually your GitHub org/user name.
+  organizationName: 'ddarkbooked', // Usually your GitHub org/user name.
   projectName: 'ddarkitecture', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -24,7 +24,8 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ru'],
+    path: 'i18n',
   },
 
   presets: [
@@ -37,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Ddarkbooked/site/tree/main/',
+            'https://github.com/Ddarkbooked/ddarkitecture/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,7 +51,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Site',
+        title: 'Ddarkitecture',
         logo: {
           alt: 'Site Logo',
           src: 'img/logo.svg',
@@ -63,7 +64,11 @@ const config = {
             label: 'Overview',
           },
           {
-            href: 'https://github.com/Ddarkbooked/site',
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/Ddarkbooked/ddarkitecture',
             position: 'right',
             className: 'navbar-github-icon',
             'aria-label': 'GitHub repository',
@@ -95,7 +100,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/Ddarkbooked/site',
+                href: 'https://github.com/Ddarkbooked/ddarkitecture',
               },
             ],
           },
