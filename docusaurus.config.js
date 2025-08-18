@@ -6,18 +6,17 @@ const darkCodeTheme = require('prism-react-renderer').themes.vsDark;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Ddarkitecture',
-  tagline: 'A Very Good Documentation created by Very Good CLI.',
-  url: 'https://ddarkbooked.github.io',
-  baseUrl: '/ddarkitecture/',
+  title: 'Site',
+  tagline: 'A Very Good Project created by Very Good CLI.',
+  url: 'https://site.com',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  deploymentBranch: 'gh-pages',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'donaldark', // Usually your GitHub org/user name.
+  organizationName: 'Ddarkbooked', // Usually your GitHub org/user name.
   projectName: 'ddarkitecture', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -38,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/donaldark/site/tree/main/',
+            'https://github.com/Ddarkbooked/site/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,7 +63,7 @@ const config = {
             label: 'Overview',
           },
           {
-            href: 'https://github.com/donaldark/site',
+            href: 'https://github.com/Ddarkbooked/site',
             position: 'right',
             className: 'navbar-github-icon',
             'aria-label': 'GitHub repository',
@@ -96,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/donaldark/site',
+                href: 'https://github.com/Ddarkbooked/site',
               },
             ],
           },
