@@ -1,0 +1,9 @@
+{
+  "label": "Architecture",
+  "position": 1,
+  "link": {
+    "title": "Architecture",
+    "type": "generated-index",
+    "description": "Learn about the Architecture. (+ ValueNotifier/ChangeNotifier)"
+  }
+}
